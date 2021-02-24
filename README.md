@@ -14,4 +14,17 @@ year = {2019}
 }
 ```
 
+
 ## Setups
+- Python 2.7.16
+- torch 1.1.0
+- torchvision 0.3.0  
+
+## Datasets
+- CUHK01
+- CUHK03
+- Market-1501
+- DukeMTMC
+- MSMT17
+
+
