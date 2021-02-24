@@ -27,6 +27,11 @@ year = {2019}
 - DukeMTMC
 - MSMT17
 
+## Networks
+- Inception 
+- Inception + part feature extractor
+- other networks...
+
 ## Training network on benchmark datasets
 Here is an example-step one
 ```bash
