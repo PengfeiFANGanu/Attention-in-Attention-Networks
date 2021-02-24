@@ -1,0 +1,19 @@
+==========
+Args:Namespace(arch='bilinear_baseline', bracewell=False, cuhk03_classic_split=False, cuhk03_labeled=False, dataset='market1501', drop_rate=0.1, eval_step=10, evaluate=False, factor_of_scale_factors=1.0, feat_dim=512, fine_tune=False, focused_parts=4, gamma=0.1, gpu_devices='0,1', height=256, htri_only=False, lr=0.0005, margin=1.0, max_epoch=300, mode='max', multi_query=False, num_instances=4, num_trip=10, optim='adam', p=2, pretrained=False, print_freq=10, resume='', root='/OSM/CBR/D61_RCV/students/fan047/myImplementation/ReID_data', save_dir='./market/log_base_32d', seed=1, split_id=0, start_epoch=0, start_eval=0, stepsize=[50, 100, 150], test_batch=32, train_batch=64, trans_learn=False, use_cpu=False, use_lmdb=False, use_metric_cuhk03=False, weight_decay=0.0001, width=128, workers=4)
+==========
+Currently using GPU 0,1
+Initializing dataset market1501
+=> Market1501 loaded
+Dataset statistics:
+  ------------------------------
+  subset   | # ids | # images
+  ------------------------------
+  train    |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+  ------------------------------
+  total    |  1501 |    32217
+  ------------------------------
+Initializing model: bilinear_baseline
+Model size: 15.550 M
+==> Start training
