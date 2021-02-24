@@ -27,4 +27,15 @@ year = {2019}
 - DukeMTMC
 - MSMT17
 
+## Training network on benchmark datasets
+Here is an example-step one
+```bash
+python train_imgreid_xent_semitri.py --pretrained --resume 'pretrained_model/inceptionV1_bn_noModule.pth.tar' --height 256 --width 128 --max-epoch 50 --train-batch 64 --focused-parts 4 --factor-of-scale-factors 1 --stepsize 150 200 250 --gamma 0.1 --lr 0.0005 --weight-decay 0.0001 --drop-rate 0.1 --margin 1 --num_trip 10 --optim 'adam' --save-dir './market/log' --arch bilinear_baseline --gpu-devices 0,1
+```
+step two
+```bash
+python train_imgreid_xent_semitri_re.py --resume './market/log/checkpoint_ep50.pth.tar' --height 256 --width 128 --max-epoch 300 --train-batch 64 --focused-parts 4 --factor-of-scale-factors 1 --stepsize 150 200 250 --gamma 0.1 --lr 0.0005 --weight-decay 0.0001 --drop-rate 0.1 --margin 1 --num_trip 10 --optim 'adam' --save-dir './market/log_re' --arch bilinear_baseline --gpu-devices 0,1
+```
+
+
 
