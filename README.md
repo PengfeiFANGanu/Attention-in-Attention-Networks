@@ -1,6 +1,6 @@
 # Attention-in-Attention-Networks
 
-Implementation of ICCV19: Bilinear attention networks for person retrieval and its extension for Journal paper (under review)
+Implementation of ICCV19: Bilinear attention networks for person retrieval and its extension for Journal, which is to be appeared in TPAMI: Attention in attention networks for person retrieval.
 
 
 If you find this code useful in your research then please cite
