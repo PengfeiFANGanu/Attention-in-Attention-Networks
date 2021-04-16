@@ -15,7 +15,7 @@ year = {2019}
 
 @InProceedings{Fang_2021_PAMI,
 author = {Fang, Pengfei and Zhou, Jieming and Roy, Soumava Kumar and and Pan Ji and Petersson, Lars and Harandi, Mehrtash},
-title = {Bilinear Attention Networks for Person Retrieval},
+title = {Attention in Attention Networks for Person Retrieval},
 booktitle = {TPAMI},
 year = {2021}
 }
